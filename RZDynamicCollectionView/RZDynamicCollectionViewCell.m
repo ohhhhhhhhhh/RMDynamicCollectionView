@@ -31,7 +31,7 @@
 @implementation RZDynamicCollectionViewCell
 
 // 默认列间距
-static const CGFloat columnMargin = 10.5;
+static const CGFloat columnMargin = 5;
 // 默认行间距
 static const CGFloat rowMargin = 0.f;
 // 默认一行三列
@@ -61,7 +61,7 @@ static const CGFloat rowHeight = 117.f;
         
         [self.contentView addSubview:self.back_view];
         // 赋值
-        [self.title_imgview sd_setImageWithURL:[NSURL URLWithString:cell_data.icon] placeholderImage:[UIImage imageNamed:@"1"]];
+//        self.title_imgview.image = [UIImage imageNamed:cell_data.icon];
         self.title_label.text = cell_data.title;
         self.arrow_imgview.hidden = NO;
     }
@@ -106,7 +106,7 @@ static const CGFloat rowHeight = 117.f;
             minHeightCol = 0;
         }
         UIImageView * imageView = [[UIImageView alloc]init];
-        [imageView sd_setImageWithURL:[NSURL URLWithString:model.image_url] placeholderImage:[UIImage imageNamed:@"1"]];
+        imageView.image = [UIImage imageNamed:model.image_url];
         [self.contentView addSubview:imageView];
         imageView.frame = CGRectMake(imageX, imageY, imageViewW, imageViewH);
         
@@ -134,17 +134,7 @@ static const CGFloat rowHeight = 117.f;
 - (void)RZDynamicCollectionViewTap:(UITapGestureRecognizer *)tap{
     
     NSInteger tag = tap.view.tag;
-    
-    if (tag < 666) {
-        return;
-    }
-    
-    NSString * url = self.cell_data.goods_list_url;
-    if (tag > 666) {
-        url = self.cell_data.category[tag-666].category_goods_list;
-    }
-    
-    NSLog(@"-------------  function = %s  , url = %@",__func__,url);
+    NSLog(@"-------------  function = %s ,tag = %ld",__func__,tag);
 }
 
 
@@ -170,6 +160,7 @@ static const CGFloat rowHeight = 117.f;
     if (!_title_imgview) {
         
         UIImageView * img = [[UIImageView alloc]initWithFrame:CGRectMake(0, 8.f, 6.f, 24.f)];
+        img.backgroundColor = [UIColor redColor];
         [self.back_view addSubview:img];
         _title_imgview = img;
     }
