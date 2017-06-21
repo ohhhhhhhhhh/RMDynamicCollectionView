@@ -1,0 +1,6 @@
+framework module Pods_RZDynamicCollectionView {
+  umbrella header "Pods-RZDynamicCollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}

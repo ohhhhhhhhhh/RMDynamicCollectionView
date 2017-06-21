@@ -15,6 +15,12 @@
 		1A4416D81E860FC9003AD437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4416D61E860FC9003AD437 /* LaunchScreen.storyboard */; };
 		1A4416E31E860FC9003AD437 /* RZDynamicCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4416E21E860FC9003AD437 /* RZDynamicCollectionViewTests.m */; };
 		1A4416EE1E860FC9003AD437 /* RZDynamicCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4416ED1E860FC9003AD437 /* RZDynamicCollectionViewUITests.m */; };
+		1A4416FD1E860FEE003AD437 /* RZDynamicCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4416FC1E860FEE003AD437 /* RZDynamicCollectionView.m */; };
+		1A4417001E8612AC003AD437 /* RZDynamicCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4416FF1E8612AC003AD437 /* RZDynamicCollectionViewCell.m */; };
+		1A4417021E861A72003AD437 /* RZDynamicCollectionMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A4417011E861A72003AD437 /* RZDynamicCollectionMockData.json */; };
+		1A4417051E861D25003AD437 /* RZDynamicCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4417041E861D25003AD437 /* RZDynamicCollectionModel.m */; };
+		1A4417081E861D37003AD437 /* RZDynamicCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4417071E861D37003AD437 /* RZDynamicCollectionViewModel.m */; };
+		D3D03B51439FBBF0845F2A7A /* Pods_RZDynamicCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72BEEDD324C5A7E3BF75DB3 /* Pods_RZDynamicCollectionView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		1A4416E91E860FC9003AD437 /* RZDynamicCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RZDynamicCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A4416ED1E860FC9003AD437 /* RZDynamicCollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZDynamicCollectionViewUITests.m; sourceTree = "<group>"; };
 		1A4416EF1E860FC9003AD437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A4416FB1E860FEE003AD437 /* RZDynamicCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZDynamicCollectionView.h; sourceTree = "<group>"; };
+		1A4416FC1E860FEE003AD437 /* RZDynamicCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZDynamicCollectionView.m; sourceTree = "<group>"; };
+		1A4416FE1E8612AC003AD437 /* RZDynamicCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZDynamicCollectionViewCell.h; sourceTree = "<group>"; };
+		1A4416FF1E8612AC003AD437 /* RZDynamicCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZDynamicCollectionViewCell.m; sourceTree = "<group>"; };
+		1A4417011E861A72003AD437 /* RZDynamicCollectionMockData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RZDynamicCollectionMockData.json; sourceTree = "<group>"; };
+		1A4417031E861D25003AD437 /* RZDynamicCollectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZDynamicCollectionModel.h; sourceTree = "<group>"; };
+		1A4417041E861D25003AD437 /* RZDynamicCollectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZDynamicCollectionModel.m; sourceTree = "<group>"; };
+		1A4417061E861D37003AD437 /* RZDynamicCollectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZDynamicCollectionViewModel.h; sourceTree = "<group>"; };
+		1A4417071E861D37003AD437 /* RZDynamicCollectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZDynamicCollectionViewModel.m; sourceTree = "<group>"; };
+		953B5265EBE579B6934618B1 /* Pods-RZDynamicCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZDynamicCollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-RZDynamicCollectionView/Pods-RZDynamicCollectionView.release.xcconfig"; sourceTree = "<group>"; };
+		A6233063C493702F5A72B355 /* Pods-RZDynamicCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RZDynamicCollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RZDynamicCollectionView/Pods-RZDynamicCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		B72BEEDD324C5A7E3BF75DB3 /* Pods_RZDynamicCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RZDynamicCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D03B51439FBBF0845F2A7A /* Pods_RZDynamicCollectionView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,8 @@
 				1A4416E11E860FC9003AD437 /* RZDynamicCollectionViewTests */,
 				1A4416EC1E860FC9003AD437 /* RZDynamicCollectionViewUITests */,
 				1A4416C61E860FC9003AD437 /* Products */,
+				8DA81476E7FA487E1D4A4467 /* Pods */,
+				BAC518BDA39653699348F684 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +126,15 @@
 				1A4416CC1E860FC9003AD437 /* AppDelegate.m */,
 				1A4416CE1E860FC9003AD437 /* ViewController.h */,
 				1A4416CF1E860FC9003AD437 /* ViewController.m */,
+				1A4416FB1E860FEE003AD437 /* RZDynamicCollectionView.h */,
+				1A4416FC1E860FEE003AD437 /* RZDynamicCollectionView.m */,
+				1A4416FE1E8612AC003AD437 /* RZDynamicCollectionViewCell.h */,
+				1A4416FF1E8612AC003AD437 /* RZDynamicCollectionViewCell.m */,
+				1A4417031E861D25003AD437 /* RZDynamicCollectionModel.h */,
+				1A4417041E861D25003AD437 /* RZDynamicCollectionModel.m */,
+				1A4417061E861D37003AD437 /* RZDynamicCollectionViewModel.h */,
+				1A4417071E861D37003AD437 /* RZDynamicCollectionViewModel.m */,
+				1A4417011E861A72003AD437 /* RZDynamicCollectionMockData.json */,
 				1A4416D11E860FC9003AD437 /* Main.storyboard */,
 				1A4416D41E860FC9003AD437 /* Assets.xcassets */,
 				1A4416D61E860FC9003AD437 /* LaunchScreen.storyboard */,
@@ -140,6 +170,23 @@
 			path = RZDynamicCollectionViewUITests;
 			sourceTree = "<group>";
 		};
+		8DA81476E7FA487E1D4A4467 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6233063C493702F5A72B355 /* Pods-RZDynamicCollectionView.debug.xcconfig */,
+				953B5265EBE579B6934618B1 /* Pods-RZDynamicCollectionView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BAC518BDA39653699348F684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B72BEEDD324C5A7E3BF75DB3 /* Pods_RZDynamicCollectionView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A4416F21E860FC9003AD437 /* Build configuration list for PBXNativeTarget "RZDynamicCollectionView" */;
 			buildPhases = (
+				A34126BC965E0CED363DB04E /* [CP] Check Pods Manifest.lock */,
 				1A4416C11E860FC9003AD437 /* Sources */,
 				1A4416C21E860FC9003AD437 /* Frameworks */,
 				1A4416C31E860FC9003AD437 /* Resources */,
+				5C2BC9B144CDF5D98C4E6BCB /* [CP] Embed Pods Frameworks */,
+				32FAE591062A26FD241FF89A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +301,7 @@
 			files = (
 				1A4416D81E860FC9003AD437 /* LaunchScreen.storyboard in Resources */,
 				1A4416D51E860FC9003AD437 /* Assets.xcassets in Resources */,
+				1A4417021E861A72003AD437 /* RZDynamicCollectionMockData.json in Resources */,
 				1A4416D31E860FC9003AD437 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,13 +322,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32FAE591062A26FD241FF89A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RZDynamicCollectionView/Pods-RZDynamicCollectionView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C2BC9B144CDF5D98C4E6BCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RZDynamicCollectionView/Pods-RZDynamicCollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A34126BC965E0CED363DB04E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A4416C11E860FC9003AD437 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A4416FD1E860FEE003AD437 /* RZDynamicCollectionView.m in Sources */,
+				1A4417081E861D37003AD437 /* RZDynamicCollectionViewModel.m in Sources */,
 				1A4416D01E860FC9003AD437 /* ViewController.m in Sources */,
 				1A4416CD1E860FC9003AD437 /* AppDelegate.m in Sources */,
+				1A4417051E861D25003AD437 /* RZDynamicCollectionModel.m in Sources */,
+				1A4417001E8612AC003AD437 /* RZDynamicCollectionViewCell.m in Sources */,
 				1A4416CA1E860FC9003AD437 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +528,7 @@
 		};
 		1A4416F31E860FC9003AD437 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6233063C493702F5A72B355 /* Pods-RZDynamicCollectionView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3VDM45ZBNN;
@@ -437,6 +541,7 @@
 		};
 		1A4416F41E860FC9003AD437 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 953B5265EBE579B6934618B1 /* Pods-RZDynamicCollectionView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3VDM45ZBNN;
@@ -516,6 +621,7 @@
 				1A4416F41E860FC9003AD437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A4416F51E860FC9003AD437 /* Build configuration list for PBXNativeTarget "RZDynamicCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +630,7 @@
 				1A4416F71E860FC9003AD437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A4416F81E860FC9003AD437 /* Build configuration list for PBXNativeTarget "RZDynamicCollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +639,7 @@
 				1A4416FA1E860FC9003AD437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
