@@ -16,6 +16,12 @@ DEPENDENCIES:
   - ReactiveCocoa (~> 2.5.0)
   - SDWebImage
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MJExtension
+    - ReactiveCocoa
+    - SDWebImage
+
 SPEC CHECKSUMS:
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
@@ -23,4 +29,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: f8df05dcfecb908674ff0c15addfe9acda8943d4
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.6.1

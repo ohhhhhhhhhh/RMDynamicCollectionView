@@ -24,6 +24,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.view.backgroundColor = [UIColor redColor];
+    
+    NSLog("Git测试");
+    
     self.collect_viewmodel = [[RZDynamicCollectionViewModel alloc]init];
     
     [self blindCollectionViewModel];
