@@ -12,7 +12,7 @@
 @interface RZDynamicCollectionView () <UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 @end
-	
+
 @implementation RZDynamicCollectionView
 
 // 默认一行3列
@@ -36,7 +36,6 @@ static const int columnCount = 3;
 
 #pragma mark -collection delegate
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
-    NSLog(@"Git Test -----");
     return self.collection_datas.count;
 }
 
