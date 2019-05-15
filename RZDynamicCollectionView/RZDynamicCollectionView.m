@@ -40,7 +40,7 @@ static const int columnCount = 3;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    
+    NSLog(@"Gi Test ------");
     return 1;
 }
 
